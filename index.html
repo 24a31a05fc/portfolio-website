@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name — Responsive Web Developer</title>
+```
+
+---
+
+### Quick Checklist ✅
+
+Go through each of these before calling it done:
+```
+□  Your real name in the hero title
+□  Your real name in the page <title>
+□  Your city and email in the About contact card
+□  Your photo added to images/ folder (or keep placeholder for now)
+□  Your real email in the Contact section
+□  Your LinkedIn URL in the footer
+□  Your GitHub URL in the footer
+□  All project links updated (or keep # for now)
+□  Stats updated (years of experience, number of projects)
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <!-- ==============================
+         NAVIGATION
+    ============================== -->
+    <nav class="navbar">
+      <div class="nav-logo">Port<span>folio</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-btn">Hire Me</a>
+    </nav>
+
+    <!-- ==============================
+     HERO SECTION
+============================== -->
+<section id="home" class="hero">
+  <div class="hero-text">
+
+    <p class="hero-label">Responsive Web Application Developer</p>
+
+    <h1 class="hero-title">
+      Hi, I'm<br />
+      <em>Your Name</em><br />
+      I Build the Web
+    </h1>
+
+    <p class="hero-desc">
+      I design and build responsive, accessible, and
+      performance-optimized web applications — built
+      for every screen, every user, every context.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact"  class="btn-secondary">Get In Touch</a>
+    </div>
+
+    <div class="hero-badges">
+      <span class="badge active">● Available for Work</span>
+      <span class="badge">HTML · CSS · JavaScript</span>
+      <span class="badge">React · Node.js</span>
+      <span class="badge">Figma · UX Research</span>
+    </div>
+
+  </div>
+
+  <div class="hero-image">
+    <div class="hero-card">
+      <div class="hero-card-dots">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="hero-card-lines">
+        <div class="line accent"></div>
+        <div class="line wide"></div>
+        <div class="line short"></div>
+      </div>
+      <div class="hero-card-grid">
+        <div class="block accent"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block accent"></div>
+      </div>
+      <div class="hero-card-bar">
+        <div class="hero-card-bar-fill" style="width: 78%"></div>
+      </div>
+      <div class="hero-card-bar">
+        <div class="hero-card-bar-fill" style="width: 55%; background: #2a6b4f;"></div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+    <!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="strip-stat">
+    <span class="strip-num">3+</span>
+    <span class="strip-label">Years Experience</span>
+  </div>
+  <div class="strip-stat">
+    <span class="strip-num">12+</span>
+    <span class="strip-label">Projects Built</span>
+  </div>
+  <div class="strip-stat">
+    <span class="strip-num">100%</span>
+    <span class="strip-label">Responsive Builds</span>
+  </div>
+  <div class="strip-stat">
+    <span class="strip-num">4+</span>
+    <span class="strip-label">Core Skills</span>
+  </div>
+</div>
+
+    <!-- ==============================
+     ABOUT SECTION
+============================== -->
+<section id="about" class="about">
+  <div class="section-tag">01 — About Me</div>
+  <div class="about-inner">
+
+    <div class="about-left">
+      <div class="about-photo-box">
+        <!-- OPTION A: If you have a photo -->
+        <!-- <img src="images/profile.jpg" alt="Your Name" class="about-photo" /> -->
+
+        <!-- OPTION B: Placeholder (delete when you add real photo) -->
+        <div class="about-photo-placeholder">
+          <span class="about-photo-icon">👤</span>
+          <span>Your Photo Here</span>
+        </div>
+      </div>
+
+      <!-- Contact card below photo -->
+      <div class="about-contact-card">
+        <div class="about-contact-row">
+          <span class="about-contact-label">Based in</span>
+          <span class="about-contact-val">Your City, India</span>
+        </div>
+        <div class="about-contact-row">
+          <span class="about-contact-label">Email</span>
+          <span class="about-contact-val">you@email.com</span>
+        </div>
+        <div class="about-contact-row">
+          <span class="about-contact-label">Status</span>
+          <span class="about-contact-val green">● Available</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <h2 class="section-title">
+        Hello, I'm a<br />
+        <em>Web Developer</em>
+      </h2>
+
+      <p class="about-intro">
+        "I build web experiences that are not just functional —
+        they are purposeful, accessible, and beautifully responsive."
+      </p>
+
+      <p class="about-body">
+        I specialize in responsive web application development with a
+        strong focus on user-centered design. My work is grounded in
+        research — understanding users, their goals, and the contexts
+        in which they interact with digital systems.
+      </p>
+
+      <p class="about-body">
+        I apply usability testing, accessibility-first principles,
+        and performance optimization to every project I build —
+        from e-commerce platforms to educational applications.
+      </p>
+
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          Responsive design across all devices and screen sizes
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          Accessibility-first development following WCAG standards
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          Performance optimization — fast loading on any connection
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-dot"></span>
+          User research and usability testing for every project
+        </div>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">12+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Responsive</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- ==============================
+         SKILLS SECTION
+    ============================== -->
+    <section id="skills" class="skills">
+      <div class="section-tag">02 — Skills</div>
+      <h2 class="section-title">Skills &amp; <em>Technologies</em></h2>
+      <p class="section-desc">
+        A full-spectrum skill set spanning front-end development,
+        UI/UX design, research, and performance optimization.
+      </p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3 class="skill-name">Front-End Development</h3>
+          <ul class="skill-list">
+            <li>HTML5 &amp; Semantic Markup</li>
+            <li>CSS3 &amp; Animations</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Responsive / Media Queries</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3 class="skill-name">Design &amp; UX</h3>
+          <ul class="skill-list">
+            <li>Figma &amp; Prototyping</li>
+            <li>UI / Visual Design</li>
+            <li>Wireframing</li>
+            <li>Information Architecture</li>
+            <li>Design Systems</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔬</div>
+          <h3 class="skill-name">Research &amp; Testing</h3>
+          <ul class="skill-list">
+            <li>Usability Testing</li>
+            <li>A/B Testing</li>
+            <li>User Interviews</li>
+            <li>Web Analytics</li>
+            <li>Accessibility (WCAG)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3 class="skill-name">Performance &amp; Tools</h3>
+          <ul class="skill-list">
+            <li>Lazy Loading &amp; CDN</li>
+            <li>Git &amp; Version Control</li>
+            <li>Node.js / Express</li>
+            <li>Performance Auditing</li>
+            <li>Cross-Browser Testing</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================
+         PROJECTS SECTION
+    ============================== -->
+    <section id="projects" class="projects">
+      <div class="section-tag">03 — Projects</div>
+      <h2 class="section-title">Selected <em>Projects</em></h2>
+      <p class="section-desc">
+        Real-world projects solved through research, design thinking,
+        and front-end engineering — with measurable outcomes.
+      </p>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-image project-image-1">
+            <span class="project-tag">Case Study A</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">E-Commerce Interface Optimization</h3>
+            <p class="project-desc">
+              Redesigned an online retail platform struggling with high cart
+              abandonment. Simplified navigation, restructured product pages,
+              and streamlined checkout — delivering measurable conversion improvements.
+            </p>
+            <div class="project-techs">
+              <span>UX Research</span>
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>A/B Testing</span>
+            </div>
+            <div class="project-results">
+              <div class="result">
+                <strong>↑ 38%</strong>
+                <span>Conversion Rate</span>
+              </div>
+              <div class="result">
+                <strong>↓ 52%</strong>
+                <span>Cart Abandonment</span>
+              </div>
+            </div>
+            <a href="#" class="project-link">View Case Study →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image project-image-2">
+            <span class="project-tag">Case Study B</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Educational Platform Usability Redesign</h3>
+            <p class="project-desc">
+              Analyzed and redesigned a learning management system where students
+              struggled with navigation. Applied card sorting and user interviews
+              to dramatically enhance engagement.
+            </p>
+            <div class="project-techs">
+              <span>Card Sorting</span>
+              <span>User Interviews</span>
+              <span>React</span>
+              <span>CSS3</span>
+            </div>
+            <div class="project-results">
+              <div class="result">
+                <strong>↑ 61%</strong>
+                <span>Engagement</span>
+              </div>
+              <div class="result">
+                <strong>↓ 44%</strong>
+                <span>Nav Errors</span>
+              </div>
+            </div>
+            <a href="#" class="project-link">View Case Study →</a>
+          </div>
+        </div>
+
+        <div class="project-card project-card-small">
+          <div class="project-info">
+            <h3 class="project-title">Accessibility Audit Tool</h3>
+            <p class="project-desc">
+              A browser utility that evaluates pages against WCAG 2.1
+              guidelines — highlighting contrast issues, missing alt text,
+              and keyboard navigation gaps.
+            </p>
+            <div class="project-techs">
+              <span>WCAG</span>
+              <span>JavaScript</span>
+              <span>DOM API</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+
+        <div class="project-card project-card-small">
+          <div class="project-info">
+            <h3 class="project-title">Responsive Design System</h3>
+            <p class="project-desc">
+              A reusable component library with fluid grids, scalable
+              typography, and accessibility-first patterns — built
+              for rapid production use.
+            </p>
+            <div class="project-techs">
+              <span>CSS Variables</span>
+              <span>Figma</span>
+              <span>React</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================
+         CONTACT SECTION
+    ============================== -->
+    <section id="contact" class="contact">
+      <div class="section-tag">04 — Contact</div>
+      <div class="contact-inner">
+
+        <div class="contact-left">
+          <h2 class="section-title">Let's Build<br /><em>Something Great</em></h2>
+          <p class="contact-desc">
+            Have a project in mind? Need a responsive web application
+            or a UX audit? I'd love to hear from you.
+          </p>
+          <div class="contact-details">
+  <div class="contact-item">
+    <span class="contact-icon">✉</span>
+    <div>
+      <p class="contact-label">Email</p>
+      <p class="contact-value">you@youremail.com</p>
+    </div>
+  </div>
+  <div class="contact-item">
+    <span class="contact-icon">📍</span>
+    <div>
+      <p class="contact-label">Location</p>
+      <p class="contact-value">Your City, Andhra Pradesh, India</p>
+    </div>
+  </div>
+  <div class="contact-item">
+    <span class="contact-icon">🔗</span>
+    <div>
+      <p class="contact-label">LinkedIn</p>
+      <p class="contact-value">linkedin.com/in/yourprofile</p>
+    </div>
+  </div>
+</div>
+        </div>
+
+        <div class="contact-right">
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="Jane" />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Smith" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="jane@company.com" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5"
+                placeholder="Tell me about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              Send Message →
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================
+         FOOTER
+    ============================== -->
+    <footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">Port<span>folio</span></div>
+    <p class="footer-tagline">Responsive Web Application Development</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="footer-socials">
+  <a href="https://linkedin.com/in/yourprofile"
+     class="social-link" target="_blank">in</a>
+  <a href="https://github.com/yourusername"
+     class="social-link" target="_blank">gh</a>
+  <a href="https://dribbble.com/yourusername"
+     class="social-link" target="_blank">dr</a>
+</div>
+  </div>
+</footer>
