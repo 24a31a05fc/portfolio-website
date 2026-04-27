@@ -11,7 +11,7 @@ A fully responsive, interactive personal portfolio website built from scratch us
 
 ## 🔗 Live Demo
 
-**[View Live Site →](http://127.0.0.1:5500/index.html)**
+**[View Live Site →](https://github.com/24a31a05fc/portfolio-website)**
 
 > Replace the link above with your actual GitHub Pages URL after publishing.
 
